@@ -13,8 +13,8 @@ body{
     width: 100%;
     max-width: 1750px ;
     margin: 0 auto;
-    height: 5000px;
-    border:  ;
+    height: auto;
+     
     
 }
 header{
@@ -55,7 +55,7 @@ a:active, a:hover{
     display: flex;
     align-items: center;
     gap: 5px;
-    font-weight: 600;;
+    font-weight: 600;
 }
 div span{
     font-weight: 600;
@@ -72,23 +72,27 @@ div span{
    margin: 50px 20px;
 }
 .section-one div{
-    border: 1px ;
-    padding: 20px 0;
+    margin: 20px 0;
+    padding: 20px auto;
 }
 .date span{
     font-size: 12px;
+    font-weight: 500;
+    line-height: 11px;
+    color: #000;
+
 }
 .date label{
     border: 1px solid;
     border-radius: 10px;
     margin-right: 10px;
-    font-size: 12px;
+    font-size: 11px;
     padding: 0 3px;
 }
 .date .span2{
     border: 1px solid;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 11px;
     padding: 0 3px;
 }
 .section-one div h1{
@@ -109,6 +113,8 @@ div span{
     max-width: 480px;
     margin-top: 250px;
 }
+ 
+
 .section-one div img{
 width: 100%;
  
@@ -118,13 +124,13 @@ width: 100%;
 /* *****************section-two**************** */
 
 .section-two {
-    margin: 0 20px;
+    margin: 80px 20px;
     border-bottom: 2px solid gray;
 }
 .section-two .pclass{
     display: flex;
     justify-content: space-between;
-    margin: 30px 0;
+    margin: 30px auto;
 }
 .pclass p{
     font-size: 19px;
@@ -162,6 +168,7 @@ width: 100%;
 .gallary-div{
     display: flex;
     gap: 25px;
+    margin: 40px auto;
 }
 .gallary-div .div1{
     max-width: 846px;
@@ -188,7 +195,7 @@ width: 100%;
     height: auto;
 }
 .div1 div{
-    margin: 40px 0;
+    margin: 40px auto;
 }
 .div1  p{
     max-width: 763px;
@@ -209,7 +216,7 @@ width: 100%;
 
 }
 .div2 div{
-    margin: 40px 0;
+    margin: 40px auto;
 }
 .div2 span{
     font-size: 11px;
@@ -228,7 +235,7 @@ width: 100%;
     text-transform: uppercase;
 }
 .div3 div{
-    margin: 40px 0;
+    margin: 40px auto;
 }
 .div3 span{
     font-size: 11px;
@@ -258,16 +265,20 @@ width: 100%;
 
     margin: 40px 20px;
 }
-.section-three div{
-
-}
+ 
 .titlediv{
     max-width: 1410px;
     display: flex;
     justify-content: space-between;
-    margin: 50px 0;
+    
+    margin: 50px auto;
 }
+.titlediv span{
+    display: flex;
+    gap: 5px;
 
+}
+ 
  
 .container{
     display: flex;
@@ -282,10 +293,7 @@ width: 100%;
     flex-direction: column;
     row-gap: 40px
 }
-.right-div div{
  
- 
-}
 .left-div div div{
 margin: 25px 0;
 }
@@ -296,9 +304,12 @@ margin: 25px 0;
     line-height: 11px;
 
 }
+.left-div img{
+    width:100% ;
+}
 .left-div p{
     font-size: 37px;
-    width: 544px;
+    max-width: 544px;
     line-height: 50px;
     text-transform: uppercase;
     font-weight: 500;
@@ -315,7 +326,7 @@ margin: 25px 0;
     color: #000;
     line-height: 32px;
     text-transform: uppercase;
-    width: 236px;
+    max-width: 236px;
     border-bottom: 1px solid;
 
 }
@@ -330,32 +341,155 @@ margin: 25px 0;
     border-radius: 10px;
 
 }
+
+/* *****************section-four**************** */
+
 .section-four{
     max-width: 100%;
     /* background-image: url("div.qodef-e-media-image.png"); */
+    margin: 80px auto;
 }
 .imgdiv {
-    border: 1px solid;
+    
     position: relative;
-   
+    overflow: hidden;  
 
 }
+.imgdiv img{
+    width: 100%;
+}
 .onimg{
+    
     position: absolute;
-    top:20% ;
+    top:50%;
     left: 20%;
-   transform: translate(-50%);
+   transform: translate(-50%,-50%);
+   max-width: 800px;
+   height: 650px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.onimg span{
+    font-size: 11px;
+    font-weight: 500;
+    color: #000;
+}
+.onimg .spanb{
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 11px;
+    padding: 0 5px;
 }
 .onimg h1{
     font-size: 70px;
     font-weight: 500;
     color: #000;
     line-height: 85px;
-    width: 516px;
+    max-width: 516px;
     text-transform: uppercase;
     border-bottom: 1px solid;
 
 }
-.onimg p{
+.onimg p{   
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+max-width: 605px;
+
+}
+
+/* *****************section-five**************** */
+
+.section-five{
+    margin: 40px 20px;
+  
+}
+.titlediv2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    
+}
+.titlediv2 p{
+    font-size: 19px;
+    color: #000;
+    font-weight: 500;
+    line-height: 19px;
+    
+}
+
+
+.carddiv{
+display: flex;
+justify-content: space-around;
+align-items: center;
+ 
+
+}
+
+.carddiv img{
+    width: 100%;
+}
+.carddiv span{
+    font-size: 11px;
+    font-weight: 500;
+    color: #000;
+    padding:0 3px ;
+    border: 1px solid;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+.carddiv p{
+    max-width: 220px;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+
+}
+
+.headline{
+    margin: 80px 20px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    height: 150px;
+}
+.headline h1{
+    line-height: 150px;
+    font-weight: 500;
+    font-size: 55px;
+     max-width: 100%;
+    color: #000000;
+}
+
+/* *****************footer**************** */
+
+footer{
+    margin: 40px auto;
+}
+.footer-div{
+display: flex;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+gap: 40px;
+}
+
+.footer-div ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+}
+.footer-div span i{
+    padding: 10px;
+}
+.footer-div .line{
+   border-bottom: 1px solid;
+   width: 520px;
+   margin: 0 auto;
+   text-align:center;
 
 }
