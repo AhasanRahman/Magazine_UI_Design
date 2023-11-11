@@ -204,7 +204,7 @@ width: 100%;
     color: #000;
     text-transform: uppercase;
     line-height: 45px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid gray;
 
 }
 .div1 span{
@@ -270,8 +270,7 @@ width: 100%;
     max-width: 1410px;
     display: flex;
     justify-content: space-between;
-    
-    margin: 50px auto;
+    margin: 50px 0;
 }
 .titlediv span{
     display: flex;
@@ -314,6 +313,7 @@ margin: 25px 0;
     text-transform: uppercase;
     font-weight: 500;
     color: #000;
+    border-bottom: 2px solid gray;
 }
 .left-div .border-span{
     border: 1px solid;
@@ -454,7 +454,7 @@ align-items: center;
 .headline{
     margin: 80px 20px;
     border-top: 1px solid;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid gray;
     height: 150px;
 }
 .headline h1{
@@ -487,9 +487,18 @@ gap: 40px;
     padding: 10px;
 }
 .footer-div .line{
-   border-bottom: 1px solid;
+   border-bottom: 2px solid ;
    width: 520px;
    margin: 0 auto;
    text-align:center;
 
+}
+.footer-div div p{
+    color:#808080;
+}
+.footer-div div .lastspan{
+    font-size: 12px;
+    color: #000;
+    border-bottom: 2px solid #808080 ;
+    text-transform: uppercase;
 }
